@@ -69,7 +69,7 @@ main {
    object-position: center;
 }
 
-.profile header {
+.profile header, .profile section {
    text-align: center;
 }
 
