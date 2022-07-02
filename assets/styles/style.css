@@ -15,6 +15,13 @@ h3 {
    color: #00a2c6
 }
 
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
 nav {
    background-color: #00a2c6;
    padding: 5px;
@@ -55,20 +62,19 @@ main {
    width: 75%;
 }
 
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+
 .profile header {
    text-align: center;
 }
 
-.featured-image {
-   width: 100%;
-   max-height: 300px;
-}
-
-.card {
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-   border-radius: 5px;
-   padding: 20px;
-   margin-top: 20px;
+.profile img {
+   width: 200px;
 }
 
 aside {
