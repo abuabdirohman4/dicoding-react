@@ -39,6 +39,10 @@ nav a:hover {
    color: white;
 }
 
+main {
+   padding: 20px;
+ }
+
 .profile header {
    text-align: center;
 }
