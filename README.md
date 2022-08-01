@@ -1,2 +1,1 @@
-# html-01-dicoding
-Belajar Dasar Pemrograman
+# Learning Path | React Web Developer
