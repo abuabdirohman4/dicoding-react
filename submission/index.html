@@ -30,9 +30,34 @@
 
     <main>
         <div id="content">
+            <article class="card">
+                <h2>Portfolio</h2>
+            </article>
+
             <article id="skills" class="card">
                 <h2>Skills</h2>
                 <section id="sectionSkills"></section>
+            </article>
+
+            <article id="contact" class="card">
+                <h2>Contact</h2>
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name">
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your Email">
+                </div>
+                <div class="input-group">
+                    <label for="phone">Phone</label>
+                    <input type="number" id="phone" placeholder="Your Email">
+                </div>
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="40" rows="5"></textarea>
+                </div>
+                <button type="submit">Send Message</button>
             </article>
         </div>
 
