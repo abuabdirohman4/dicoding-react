@@ -1,44 +1,91 @@
 @media screen and (max-width: 768px) {
+
     /* Contact */
     #contact .input-group {
         margin-left: auto;
     }
+
     #contact .input-group input {
         width: 100%;
     }
+
     #contact .input-group textarea {
         width: 100%;
     }
+
     #contact button {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 1000px) {
+
     /* Aside */
     #content,
     aside {
         width: 100%;
     }
+
     .profile img {
         width: 60%;
     }
+
     /* Portfolio */
     #portfolio .wrapper img {
         width: 50%;
         height: auto;
     }
+
     /* Navbar */
-    /* nav .menu-toggle {
+    nav .menu-toggle {
         display: block;
-    } */
+        z-index: 2;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 100vh;
+        background-color: white;
+        margin-top: 0;
+        z-index: -1;
+        opacity: 0;
+        transition: all .5s;
+    }
+
+    nav .menu-toggle span {
+        background-color: black;
+    }
+
+    nav ul li {
+        margin-bottom: 3rem;
+    }
+
+    nav ul.slide {
+        opacity: 1;
+        z-index: 1;
+    }
+
+    nav .menu-toggle.slide {
+        position: fixed;
+        right: 2.2rem;
+    }
 }
 
 @media screen and (max-width: 1336px) {
+
     /* Portfolio */
     #portfolio .wrapper {
         flex-direction: column;
     }
+
     #portfolio .wrapper .card-porto {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }

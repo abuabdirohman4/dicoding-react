@@ -5,10 +5,6 @@ aside {
     color: var(--secondary);;
 }
 
-aside h2 {
-    color: var(--primary);
-}
-
 .profile header,
 .profile section {
     text-align: center;

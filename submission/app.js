@@ -43,10 +43,19 @@ listSkills.forEach((skill) => {
 });
 
 // Hamburger Menu
-const menuToggle = document.querySelector('nav .menu-toggle input')
-const nav = document.querySelector('nav ul')
+const menuToggle = document.querySelector("nav .menu-toggle input");
+const nav = document.querySelector("nav ul");
 
-menuToggle.addEventListener('click', () => {
-    nav.classList.toggle('slide')
-    document.querySelector('nav .menu-toggle').classList.toggle('slide')
-})
+menuToggle.addEventListener("click", () => {
+  nav.classList.toggle("slide");
+  document.querySelector("nav .menu-toggle").classList.toggle("slide");
+});
+
+const navbarLink = document.querySelectorAll("nav ul li");
+navbarLink.forEach((link) => {
+  link.addEventListener("click", () => {
+    nav.classList.toggle("slide");
+    document.querySelector("nav .menu-toggle").classList.toggle("slide");
+    menuToggle.checked = false;
+  });
+});
