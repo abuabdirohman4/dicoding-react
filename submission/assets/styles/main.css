@@ -10,6 +10,8 @@ main {
 
 #sectionSkills {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     overflow: hidden;
     padding-bottom: 1rem;
     padding-left: .1rem;
@@ -17,9 +19,9 @@ main {
 
 #skills .card-skill {
     text-align: center;
-    /* display: inline; */
     padding: 1rem 3rem 0;
     margin-right: 1rem;
+    flex: 0 0 calc(100%/4);
 }
 
 .featured-image {
