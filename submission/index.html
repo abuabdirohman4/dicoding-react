@@ -22,7 +22,6 @@
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#article">Article</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -30,13 +29,25 @@
 
     <main>
         <div id="content">
-            <article class="card">
+            <article id="portfolio" class="card">
                 <h2>Portfolio</h2>
+                <div class="wrapper">
+                    <section class="card card-porto">
+                        <h3>Web Kota Bandung</h3>
+                        <img src="./assets/image/kota-bandung.png" alt="Web Kota Bandung">
+                        <a href="../html-css/index.html" class="stretched-link"></a>
+                    </section>
+                    <section class="card card-porto">
+                        <h3>Web Calculator</h3>
+                        <img src="./assets/image/web-calculator.png" alt="Web Calculator">
+                        <a href="../flexbox-js/index.html" class="stretched-link"></a>
+                    </section>
+                </div>
             </article>
 
             <article id="skills" class="card">
                 <h2>Skills</h2>
-                <section id="sectionSkills"></section>
+                <div class="wrapper"></div>
             </article>
 
             <article id="contact" class="card">
@@ -67,7 +78,7 @@
                     <h2>About Me</h2>
                     <p>Front End Developer</p>
                     <figure>
-                        <img src="assets/image/profile-removebg.png">
+                        <img src="assets/image/profile.png">
                         <figcaption>Abu Abdirohman</figcaption>
                     </figure>
                 </header>

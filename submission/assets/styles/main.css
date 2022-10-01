@@ -8,21 +8,38 @@ main {
     width: 65%;
 }
 
-/* Skills */
-#skills .card-skill {
-    text-align: center;
-    padding: 1rem 3rem 0;
-    margin-right: 1rem;
-    flex: 0 0 calc(100%/4);
+/* Portfolio */
+#portfolio .wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 2rem;
 }
 
-#sectionSkills {
+#portfolio .wrapper .card-porto {
+    position: relative;
+    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+#portfolio .wrapper .stretched-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/* Skills */
+#skills .wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    overflow: hidden;
-    padding-bottom: 1rem;
-    padding-left: .1rem;
+}
+
+#skills .card-skill {
+    text-align: center;
+    padding: 1rem 3rem .1rem;
+    margin-right: 1rem;
+    flex: 0 0 calc(100%/4);
 }
 
 /* Contact */

@@ -26,18 +26,18 @@ let listSkills = [
   ];
   
   listSkills.forEach((skill) => {
-    let sectionSkills = document.getElementById("sectionSkills");
-  
+    let skillsWrapper = document.querySelector("#skills .wrapper");
     let img = document.createElement("img");
     img.src = skill.src;
+    img.alt = skill.name;
   
     let p = document.createElement("p");
     p.appendChild(document.createTextNode(skill.name));
   
-    let div = document.createElement("div");
-    div.setAttribute("class", "card card-skill");
-    div.appendChild(img);
-    div.appendChild(p);
+    let section = document.createElement("section");
+    section.setAttribute("class", "card card-skill");
+    section.appendChild(img);
+    section.appendChild(p);
   
-    sectionSkills.appendChild(div);
+    skillsWrapper.appendChild(section);
   });
