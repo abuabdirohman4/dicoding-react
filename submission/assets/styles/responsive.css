@@ -1,24 +1,5 @@
-@media screen and (min-width: 576px) and (max-width: 768px) {
-    .profile img {
-        width: 75%;
-    }
-    #portfolio .wrapper img {
-        width: 60%;
-        height: auto;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1000px) {
-    .profile img {
-        width: 60%;
-    }
-    #portfolio .wrapper img {
-        width: 50%;
-        height: auto;
-    }
-}
-
 @media screen and (max-width: 768px) {
+    /* Contact */
     #contact .input-group {
         margin-left: auto;
     }
@@ -34,10 +15,23 @@
 }
 
 @media screen and (max-width: 1000px) {
+    /* Aside */
     #content,
     aside {
         width: 100%;
     }
+    .profile img {
+        width: 60%;
+    }
+    /* Portfolio */
+    #portfolio .wrapper img {
+        width: 50%;
+        height: auto;
+    }
+    /* Navbar */
+    /* nav .menu-toggle {
+        display: block;
+    } */
 }
 
 @media screen and (max-width: 1336px) {
@@ -45,7 +39,6 @@
     #portfolio .wrapper {
         flex-direction: column;
     }
-
     #portfolio .wrapper .card-porto {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
