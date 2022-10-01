@@ -3,11 +3,9 @@
 
 /* Variables */
 :root {
-    --text-primary: #7190FF;
-    --text-secondary: #2A3A6B;
-
-    --bg-primary: #1c1c1c;
-    --bg-secondary: #2f2f2f;
+    --primary: #642DFB;
+    --secondary: #160442;
+    --alternate: #6B7193;
 }
 
 /* Elements */
@@ -19,13 +17,12 @@ body {
     font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1C1C1C;
-    color: white;
+    color: var(--secondary);
 }
 
 h2,
 h3 {
-    color: var(--text-primary)
+    color: var(--primary)
 }
 
 .card {
@@ -33,7 +30,6 @@ h3 {
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
-    background-color: var(--bg-secondary);
 }
 
 .container {

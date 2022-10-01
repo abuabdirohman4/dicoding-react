@@ -2,12 +2,12 @@ aside {
     float: right;
     width: 35%;
     padding-left: 20px;
-    color: white;
+    color: var(--secondary);;
 }
 
-.profile {
-    background-color: var(--bg-secondary);
-}
+/* .profile {
+
+} */
 
 .profile header,
 .profile section {

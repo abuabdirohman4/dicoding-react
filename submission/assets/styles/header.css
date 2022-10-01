@@ -1,19 +1,14 @@
-.banner {
-    padding: .1px;
-    background-image: linear-gradient(43deg,#4158d0,#c850c0 46%,#ffcc70);
-    filter: brightness(115%);
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-}
-
 nav {
-    background-color: #1c1c1c;
     padding: 5px;
     display: flex;
     justify-content: space-between;
     margin: 1.5rem 2rem;
+}
+
+nav .logo h1 {
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: .4rem;
 }
 
 nav li {
@@ -27,11 +22,12 @@ nav a {
     font-weight: 400;
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: var(--secondary);
+    ;
 }
 
 nav a:hover {
     font-weight: bold;
-    color: var(--text-primary);
+    color: var(--primary);
     filter: brightness(110%);
 }
