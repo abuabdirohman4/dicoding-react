@@ -8,7 +8,7 @@ let listSkills = [
       src: "./assets/image/css.svg",
     },
     {
-      name: "Javascript",
+      name: "JScript",
       src: "./assets/image/js.svg",
     },
     {

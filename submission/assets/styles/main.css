@@ -18,7 +18,14 @@ main {
 #portfolio .wrapper .card-porto {
     position: relative;
     box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
+
+#portfolio .wrapper img {
+    width: 100%;
+    height: auto;
+}
+
 
 #portfolio .wrapper .stretched-link {
     position: absolute;
@@ -74,6 +81,5 @@ main {
     border-radius: 50px;
     margin-top: 1rem;
     padding: 10px 10px;
-    margin-left: 2.8rem;
-    width: 47.5%;
+    width: 50%;
 }

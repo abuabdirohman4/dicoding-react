@@ -1,8 +1,52 @@
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .profile img {
+        width: 75%;
+    }
+    #portfolio .wrapper img {
+        width: 60%;
+        height: auto;
+    }
+}
 
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    .profile img {
+        width: 60%;
+    }
+    #portfolio .wrapper img {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #contact .input-group {
+        margin-left: auto;
+    }
+    #contact .input-group input {
+        width: 100%;
+    }
+    #contact .input-group textarea {
+        width: 100%;
+    }
+    #contact button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
     #content,
     aside {
         width: 100%;
-        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1336px) {
+    /* Portfolio */
+    #portfolio .wrapper {
+        flex-direction: column;
+    }
+
+    #portfolio .wrapper .card-porto {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
 }
