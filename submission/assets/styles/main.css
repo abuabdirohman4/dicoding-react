@@ -8,6 +8,20 @@ main {
     width: 65%;
 }
 
+#sectionSkills {
+    display: flex;
+    overflow: hidden;
+    padding-bottom: 1rem;
+    padding-left: .1rem;
+}
+
+#skills .card-skill {
+    text-align: center;
+    /* display: inline; */
+    padding: 1rem 3rem 0;
+    margin-right: 1rem;
+}
+
 .featured-image {
     width: 100%;
     max-height: 300px;
