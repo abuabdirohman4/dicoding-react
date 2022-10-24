@@ -24,7 +24,7 @@ const addBook = () => {
   saveBook();
 };
 
-const makeBook = (book) => {
+const createBook = (book) => {
   const { id, title, author, year, isComplete } = book;
 
   const textTitle = document.createElement("h3");
@@ -117,9 +117,7 @@ const handleSearchBook = () => {
   let keyword = document.getElementById("searchBookTitle").value;
 
   for (let i = 0; i < article.length; i++) {
-    if (
-      article[i].textContent.toLowerCase().includes(keyword.toLowerCase())
-    ) {
+    if (article[i].textContent.toLowerCase().includes(keyword.toLowerCase())) {
       article[i].classList.remove("is-hidden");
     } else {
       article[i].classList.add("is-hidden");
@@ -156,7 +154,7 @@ document.addEventListener(RENDER_BOOK, function () {
   completeBookshelfList.innerHTML = "";
 
   for (const book of books) {
-    const bookElement = makeBook(book);
+    const bookElement = createBook(book);
     if (book.isComplete) {
       completeBookshelfList.append(bookElement);
     } else {
